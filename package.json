@@ -1,0 +1,10 @@
+{
+  "name": "childcare-open-day",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "托育开放日隐私协调领域资料",
+  "scripts": {
+    "test": "node --test"
+  }
+}
