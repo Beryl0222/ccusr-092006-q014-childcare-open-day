@@ -4,6 +4,19 @@
   "occurred_at": "2026-09-20T09:00:00+08:00",
   "subject_id": "demo-014",
   "payload": {
-    "note": "虚构资料，仅用于格式核对"
+    "note": "虚构资料，仅用于格式核对",
+    "name": "示例开放日",
+    "languages": ["zh", "en"],
+    "accessibility": { "wheelchair": true },
+    "areas": [{ "id": "class-a", "name": "示例教室", "accessible": true }],
+    "slots": [
+      {
+        "id": "slot-1",
+        "startsAt": "2026-10-10T09:00:00+08:00",
+        "endsAt": "2026-10-10T10:00:00+08:00",
+        "capacity": 8,
+        "languages": ["zh", "en"]
+      }
+    ]
   }
 }
